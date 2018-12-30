@@ -1,0 +1,34 @@
+{
+  "name": "test_threejs",
+  "version": "1.0.0",
+  "description": "Test 3d project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build:prod": "webpack -p",
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkmarthur/TestThreeJS.git"
+  },
+  "keywords": [
+    "threejs"
+  ],
+  "author": "Mario D. Quiroz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkmarthur/TestThreeJS/issues"
+  },
+  "homepage": "https://github.com/darkmarthur/TestThreeJS#readme",
+  "dependencies": {
+    "three": "^0.99.0"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
